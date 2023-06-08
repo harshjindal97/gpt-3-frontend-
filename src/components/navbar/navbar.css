@@ -71,7 +71,7 @@
 
 .gpt3__navbar-menu_container {
     display: flex;
-    justify-content: flex-end;
+    /* justify-content: center; */
     align-items: flex-end;
     flex-direction: column;
     text-align: end;
