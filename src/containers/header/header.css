@@ -103,10 +103,7 @@
         flex-direction: column;
     }
 
-    .gpt3_header-content {
-        /* margin: 0 0rem 0rem; */
-        /* margin-bottom: 3rem; */
-    }
+
 
     .gpt3_header h1 {
         font-size: 55px;
@@ -120,10 +117,7 @@
 
 
 
-    .gpt3_header-content {
-        /* margin: 0 0rem 0rem; */
-        /* margin-bottom: 3rem; */
-    }
+
 
     .gpt3_header h1 {
         font-size: 48px;

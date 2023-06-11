@@ -1,0 +1,24 @@
+.gpt3_feature-container_feature {
+    max-width: 350px;
+    /* width: 100%; */
+    /* display: flex; */
+}
+
+.gpt3_feature-container_feature-title h1 {
+    color: white;
+    font-weight: 500;
+    font-size: 25px;
+    /* justify-content: flex-start; */
+}
+
+.gpt3_feature-container_feature-title div {
+    width: 50px;
+    height: 3px;
+    /* background: black; */
+    background: linear-gradient(to left, rgb(134, 102, 232), rgb(248, 161, 102));
+}
+
+.gpt3_feature-container_feature-text {
+    color: rgb(194, 191, 191);
+    font-size: 15px;
+}

@@ -1,0 +1,28 @@
+.gpt3_features {
+    margin: 6rem;
+    /* margin-left: 3rem; */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* flex: 1; */
+}
+
+.gpt3_features-heading h1 {
+    background: linear-gradient(to left, rgb(248, 163, 106), rgb(166, 93, 218));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.gpt3_features-heading {
+    width: 40%;
+
+}
+
+.gpt3_features-container {
+    flex: 1.5;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+
+}
