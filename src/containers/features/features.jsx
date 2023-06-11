@@ -3,7 +3,7 @@ import { Feature } from '../../components';
 import "./features.css";
 
 const Features = ({ title, text }) => {
-    return (
+    return (<>
         <div className='gpt3_features'>
             <div className='gpt3_features-heading'>
                 <h1>The Future is Now and You Just Need to Realize It. Step into Future Today. & Make it Happen.</h1>
@@ -17,6 +17,7 @@ const Features = ({ title, text }) => {
                     text='Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.' />
             </div>
         </div>
+    </>
     )
 }
 

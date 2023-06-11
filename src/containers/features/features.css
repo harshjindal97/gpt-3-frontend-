@@ -5,6 +5,7 @@
     justify-content: space-between;
     align-items: center;
     /* flex: 1; */
+    gap: 20px;
 }
 
 .gpt3_features-heading h1 {
@@ -21,8 +22,83 @@
 .gpt3_features-container {
     flex: 1.5;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
     flex-direction: column;
+    width: 100%;
 
+}
+
+.gpt3_features-container .gpt3_feature-container_feature {
+    display: flex;
+    max-width: 100%;
+    justify-content: stretch;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 2rem;
+}
+
+
+.gpt3_features-container .gpt3_feature-container_feature-title {
+    max-width: 200px;
+}
+
+@media screen and (max-width:990px) {
+
+    .gpt3_features {
+        margin: 2rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .gpt3_features-heading {
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 2rem;
+    }
+
+}
+
+@media screen and (max-width:990px) {
+
+    .gpt3_features {
+        margin: 2rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .gpt3_features-heading {
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 2rem;
+    }
+
+    .gpt3_features-container .gpt3_feature-container_feature-title {
+        max-width: 150px;
+    }
+
+}
+
+
+@media screen and (max-width:550px) {
+
+    .gpt3_features {
+        margin: 2rem;
+        flex-direction: column;
+        justify-content: start;
+        align-items: start;
+    }
+
+    .gpt3_features-heading {
+        width: 100%;
+        justify-content: start;
+        align-items: start;
+        margin-bottom: 2rem;
+    }
+
+    .gpt3_features-container .gpt3_feature-container_feature-title {
+        max-width: 100px;
+    }
 }
